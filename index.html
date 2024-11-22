@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Round</title>
+</head>
+<body>
+    <header>
+        <img src="./eu.png" alt="">
+        <h1>Round <br> counter</h1>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/hey.bryan01/" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                    <h4>@hey.bryan01</h4>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/BFS2006" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <h4>GitHub</h4>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="tudo">
+        <div class="conteiners">
+            <h1>Round</h1>
+            <img src="./wallpaper3.gif" alt="">
+            <div class="conteiner_menor">
+                <form action="">
+                    <label for="">
+                        Informe o tempo de cada ROUND em minutos
+                    </label>
+                    <input id="inputTRound" type="number">
+                </form>
+            </div>
+            <div class="conteiner_menor">
+                <form action="">
+                    <label for="">
+                        Informe o tempo de intervalo em minutos
+                    </label>
+                    <input id="inputTIntervalo" type="number">
+                </form>
+            </div>
+            <div class="conteiner_menor">
+                <form action="">
+                    <label for="">
+                        Quantidade de Rounds
+                    </label>
+                    <input id="inputTQuantRounds" type="number">
+                </form>
+            </div>
+            <h1 id="tempo" style="color: white;"></h1>
+            <button id="startButton">Resultado</button> <!-- Removido o 'onclick' aqui -->
+        </div>
+    </div>
+    <script src="./scripts.js"></script> <!-- Colocar a tag script no final -->
+</body>
+</html>
